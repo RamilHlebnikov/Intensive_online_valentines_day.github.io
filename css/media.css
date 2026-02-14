@@ -440,7 +440,7 @@
         max-width: 309px;
         top: -120px;
         left: auto;
-        right: 0;
+        right: 2%;
         transform: none !important;
     }
 
@@ -5189,4 +5189,5 @@
     .heart::after {
         left: -5.5px !important;
     }
+
 }
