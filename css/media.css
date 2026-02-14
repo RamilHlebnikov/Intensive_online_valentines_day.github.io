@@ -440,7 +440,7 @@
         max-width: 309px;
         top: -120px;
         left: auto;
-        right: 3%;
+        right: 10px;
         transform: none !important;
     }
 
@@ -5191,5 +5191,6 @@
     }
 
 }
+
 
 
