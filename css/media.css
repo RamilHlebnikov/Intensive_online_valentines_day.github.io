@@ -435,11 +435,12 @@
     }
 
     .images {
+        margin: 0 auto;
         position: relative;
         max-width: 309px;
         top: -120px;
         left: auto;
-        right: 80px;
+        right: 0:
         transform: none !important;
     }
 
@@ -5190,6 +5191,7 @@
     }
 
 }
+
 
 
 
