@@ -436,6 +436,7 @@
 
     .images {
         margin: 0 auto;
+        margin-right: 7px;
         position: relative;
         max-width: 309px;
         top: -120px;
@@ -5191,6 +5192,7 @@
     }
 
 }
+
 
 
 
