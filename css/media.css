@@ -442,7 +442,7 @@
         top: -120px;
         left: auto;
         right: 0;
-        transform: none !important;
+        cursor: pointer;
     }
 
     .bg-effect {
@@ -502,6 +502,7 @@
         padding: 20px 15px 20px 45px;
         position: relative;
         margin: 0 auto;
+        cursor: pointer;
     }
 
     .for-whom__card:hover {
@@ -518,6 +519,7 @@
         top: 50%;
         transform: translateY(-50%);
         z-index: 2;
+        cursor: pointer;
     }
 
     .for-whom__desc {
@@ -629,6 +631,7 @@
         border: 3px solid rgba(255, 255, 255, 0.2);
         transition: var(--transition);
         backdrop-filter: blur(10px);
+        cursor: pointer;
     }
 
     .program__content--list:hover {
@@ -641,7 +644,7 @@
     .program__images {
         width: 46px;
         height: 46px;
-        transform: none !important;
+        cursor: pointer;
     }
 
     .program__desc {
@@ -783,7 +786,7 @@
     }
 
     .accordion-label:hover {
-        background: linear-gradient(135deg, #FFF5F9, #FFE4EC);
+        background: transparent !important;
     }
 
     .lesson-title {
@@ -842,7 +845,7 @@
         overflow: hidden;
         padding: 0 25px;
         transition: max-height 0.4s ease, padding 0.4s ease;
-        background-color: var(--background-color-card);
+        background-color: transparent !important;
         font-size: 15px;
         line-height: 1.6;
         color: var(--primary-color);
@@ -944,6 +947,7 @@
         position: relative;
         margin-left: 0 !important;
         margin-right: 0 !important;
+        cursor: pointer;
     }
 
     .pricing__content--card:hover {
@@ -999,7 +1003,7 @@
         top: -30px;
         left: 240px;
         object-fit: cover;
-        transform: none !important;
+        cursor: pointer;
     }
 
     .pricing__content--stories {
@@ -1008,10 +1012,6 @@
         justify-content: center;
         align-items: center;
         gap: 25px;
-    }
-
-    .pricing__content__images--gift {
-        transform: none !important;
     }
 
     .pricing__content__stories--text {
@@ -1296,7 +1296,6 @@
     .bx.bxs-cookie {
         font-size: 48px;
         cursor: pointer;
-        transform: none !important;
         order: 1;
     }
 
@@ -1937,7 +1936,7 @@
         top: -150px;
         left: auto;
         right: 0;
-        transform: none !important;
+        cursor: pointer;
     }
 
     .bg-effect {
@@ -1992,6 +1991,7 @@
         padding: 25px 20px 25px 60px;
         position: relative;
         margin: 0 auto;
+        cursor: pointer;
     }
 
     .for-whom__card:hover {
@@ -2008,6 +2008,7 @@
         top: 50%;
         transform: translateY(-50%);
         z-index: 2;
+        cursor: pointer;
     }
 
     .for-whom__desc {
@@ -2119,6 +2120,7 @@
         border: 3px solid rgba(255, 255, 255, 0.2);
         transition: var(--transition);
         backdrop-filter: blur(10px);
+        cursor: pointer;
     }
 
     .program__content--list:hover {
@@ -2131,7 +2133,7 @@
     .program__images {
         width: 60px;
         height: 60px;
-        transform: none !important;
+        cursor: pointer;
         flex-shrink: 0;
         filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
     }
@@ -2303,7 +2305,7 @@
     }
 
     .accordion-label:hover {
-        background-color: var(--secondary-color);
+        background-color: transparent !important;
     }
 
     .lesson-title {
@@ -2364,7 +2366,7 @@
         overflow: hidden;
         padding: 0 30px;
         transition: max-height 0.4s ease, padding 0.4s ease;
-        background-color: var(--background-color-card);
+        background-color: transparent !important;
         font-size: 16px;
         line-height: 1.6;
         color: var(--primary-color);
@@ -2454,6 +2456,7 @@
         position: relative;
         margin-left: 0 !important;
         margin-right: 0 !important;
+        cursor: pointer;
     }
 
     .pricing__content--card:hover {
@@ -2509,7 +2512,7 @@
         top: -30px;
         left: 240px;
         object-fit: cover;
-        transform: none !important;
+        cursor: pointer;
     }
 
     .pricing__content--stories {
@@ -2518,10 +2521,6 @@
         justify-content: center;
         align-items: center;
         gap: 25px;
-    }
-
-    .pricing__content__images--gift {
-        transform: none !important;
     }
 
     .pricing__content__stories--text {
@@ -2559,6 +2558,7 @@
         text-decoration: none;
         text-transform: uppercase;
         transition: var(--transition);
+        cursor: pointer;
     }
 
     .short__name:hover {
@@ -2789,7 +2789,7 @@
 
     .bx.bxs-cookie {
         font-size: 50px;
-        transform: none !important;
+        cursor: pointer;
     }
 
     .cookie__container--label {
@@ -3223,7 +3223,7 @@
         top: -40px;
         width: 35%;
         z-index: 2;
-        transform: none !important;
+        cursor: pointer;
     }
 
     .bg-effect {
@@ -3273,6 +3273,7 @@
         padding: 20px 15px 20px 50px;
         position: relative;
         margin: 0;
+        cursor: pointer;
     }
 
     .for-whom__card:hover {
@@ -3289,6 +3290,7 @@
         top: 50%;
         transform: translateY(-50%);
         z-index: 2;
+        cursor: pointer;
     }
 
     .for-whom__desc {
@@ -3399,6 +3401,7 @@
         border: 3px solid rgba(255, 255, 255, 0.2);
         transition: var(--transition);
         backdrop-filter: blur(10px);
+        cursor: pointer;
     }
 
     .program__content--list:hover {
@@ -3412,7 +3415,7 @@
         width: 55px;
         height: 55px;
         flex-shrink: 0;
-        transform: none !important;
+        cursor: pointer;
         filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
     }
 
@@ -3621,7 +3624,7 @@
         overflow: hidden;
         padding: 0 25px;
         transition: max-height 0.4s ease, padding 0.4s ease;
-        background-color: var(--secondary-color);
+        background-color: transparent !important;
         font-size: 16px;
         line-height: 1.6;
         color: var(--primary-color);
@@ -3694,6 +3697,7 @@
         position: relative;
         margin-left: 0 !important;
         margin-right: 0 !important;
+        cursor: pointer;
     }
 
     .pricing__content--card:hover {
@@ -3749,7 +3753,7 @@
         top: -30px;
         left: 240px;
         object-fit: cover;
-        transform: none !important;
+        cursor: pointer;
     }
 
     .pricing__content--stories {
@@ -3758,10 +3762,6 @@
         justify-content: center;
         align-items: center;
         gap: 25px;
-    }
-
-    .pricing__content__images--gift {
-        transform: none !important;
     }
 
     .pricing__content__stories--text {
@@ -4024,7 +4024,7 @@
 
     .bx.bxs-cookie {
         font-size: 50px;
-        transform: none !important;
+        cursor: pointer;
     }
 
     .cookie__container--label {
@@ -4335,6 +4335,7 @@
         padding: 25px 20px 25px 55px;
         position: relative;
         margin: 0;
+        cursor: pointer;
     }
 
     .for-whom__card:hover {
@@ -4351,6 +4352,7 @@
         top: 50%;
         transform: translateY(-50%);
         z-index: 2;
+        cursor: pointer;
     }
 
     .for-whom__desc {
@@ -4460,6 +4462,7 @@
         border: 3px solid rgba(255, 255, 255, 0.2);
         transition: var(--transition);
         backdrop-filter: blur(10px);
+        cursor: pointer;
     }
 
     .program__content--list:hover {
@@ -4474,6 +4477,7 @@
         height: 65px;
         flex-shrink: 0;
         filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+        cursor: pointer;
     }
 
     .program__desc {
@@ -4691,7 +4695,7 @@
         overflow: hidden;
         padding: 0 30px;
         transition: max-height 0.4s ease, padding 0.4s ease;
-        background-color: var(--secondary-color);
+        background-color: transparent !important;
         font-size: 17px;
         line-height: 1.6;
         color: var(--primary-color);
@@ -4757,6 +4761,7 @@
         width: 350px;
         padding: 60px 25px 0 30px;
         position: relative;
+        cursor: pointer;
     }
 
     .pricing__content--card:hover {
@@ -5151,6 +5156,7 @@
 
     .bx.bxs-cookie {
         font-size: 58px;
+        cursor: pointer;
     }
 
     .cookie__container--label {
@@ -5190,5 +5196,4 @@
     .heart::after {
         left: -5.5px !important;
     }
-    
 }
