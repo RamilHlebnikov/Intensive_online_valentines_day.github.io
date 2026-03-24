@@ -1845,7 +1845,7 @@ html {
 .valentine-toggle-btn {
     position: fixed;
     top: 20px;
-    right: 90px;
+    right: 20px;
     width: 60px;
     height: 60px;
     background: rgba(255, 64, 129, 0.95);
