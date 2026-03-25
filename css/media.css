@@ -830,7 +830,7 @@
         transform: translateX(-50%);
     }
 
-    /* Анимация при открытии - превращаем плюс в минус */
+    /* Анимация при открытии - превращение плюса в минус */
         .accordion-toggle:checked + .accordion-label .icon::after {
         transform: translateX(-50%) rotate(90deg);
         opacity: 0;
@@ -1363,7 +1363,7 @@
         height: 26px;
     }
     
-    /* 20 сердечек (каждое второе) */
+    /* 20 сердечек */
     .heart.h2, .heart.h4, .heart.h6, .heart.h8, .heart.h10,
     .heart.h12, .heart.h14, .heart.h16, .heart.h18, .heart.h20,
     .heart.h22, .heart.h24, .heart.h26, .heart.h28, .heart.h30,
@@ -1371,7 +1371,7 @@
         display: none;
     }
     
-    /* Размер сердечек для мобильных */
+    /* Размер сердечек */
     .heart {
         width: 10px !important;
         height: 10px !important;
@@ -1391,7 +1391,6 @@
         left: -5px !important;
     }
     
-    /* СКОРОСТЬ ПАДЕНИЯ - ЧУТЬ МЕДЛЕННЕЕ */
     /* От 7 до 10 секунд (вместо 4-7) - оптимальная скорость */
     .heart.h1 { animation: heartFall 8s linear infinite 0s; }
     .heart.h3 { animation: heartFall1 7s linear infinite 1s; }
@@ -1414,7 +1413,6 @@
     .heart.h37 { animation: heartFall3 9.4s linear infinite 1.9s; }
     .heart.h39 { animation: heartFall4 8.1s linear infinite 0.2s; }
     
-    /* УМЕНЬШЕНА амплитуда бокового смещения для более плавного падения */
     @keyframes heartFall {
         0% { transform: translateY(0) translateX(0) rotate(45deg); opacity: 0; }
         10% { opacity: 0.9; }
@@ -1450,7 +1448,7 @@
         100% { transform: translateY(100vh) translateX(-15px) rotate(45deg); opacity: 0; }
     }
     
-    /* Более яркие цвета для мобильных */
+    /* Более яркие цвета */
     .heart.h1, .heart.h11, .heart.h21, .heart.h31 { background: #FF4081; }
     .heart.h3, .heart.h13, .heart.h23, .heart.h33 { background: #E91E63; }
     .heart.h5, .heart.h15, .heart.h25, .heart.h35 { background: #FF1744; }
@@ -1478,7 +1476,7 @@
     .sparkle.s7 { top: 65%; left: 15%; animation: sparkle 1.9s infinite 0.2s; }
     .sparkle.s8 { top: 50%; left: 90%; animation: sparkle 1.2s infinite 1.2s; }
     
-    /* Мерцание звездочек НЕМНОГО МЕДЛЕННЕЕ */
+    /* Мерцание звездочек */
     @keyframes sparkle {
         0%, 100% { 
             opacity: 0.3; 
@@ -1679,7 +1677,7 @@
         }
     }
 
-    /* Текст загрузки - ВСЕ НА ОДНОЙ СТРОКЕ */
+    /* Текст загрузки */
     .loading-text {
         position: absolute;
         bottom: -35px;
@@ -2351,7 +2349,7 @@
         transform: translateX(-50%);
     }
 
-    /* Анимация при открытии - превращаем плюс в минус */
+    /* Анимация при открытии - превращение плюса в минус */
     .accordion-toggle:checked + .accordion-label .icon::after {
         transform: translateX(-50%) rotate(90deg);
         opacity: 0;
@@ -2829,7 +2827,7 @@
         height: 28px;
     }
     
-    /* 25 сердечек (оптимальное количество для планшетов) */
+    /* 25 сердечек */
     .heart.h6, .heart.h7, .heart.h8, .heart.h9, .heart.h10,
     .heart.h16, .heart.h17, .heart.h18, .heart.h19, .heart.h20,
     .heart.h26, .heart.h27, .heart.h28, .heart.h29, .heart.h30 {
@@ -2855,8 +2853,7 @@
     .heart::after {
         left: -5.5px !important;
     }
-    
-    /* СКОРОСТЬ ПАДЕНИЯ - ОПТИМАЛЬНАЯ ДЛЯ ПЛАНШЕТОВ */
+
     /* От 7.5 до 10.5 секунд - плавное, но не слишком медленное */
     .heart.h1 { animation: heartFall 8.5s linear infinite 0s; }
     .heart.h2 { animation: heartFall1 9s linear infinite 1s; }
@@ -2888,7 +2885,7 @@
     .heart.h39 { animation: heartFall3 10.4s linear infinite 2.4s; }
     .heart.h40 { animation: heartFall4 8.4s linear infinite 1.7s; }
     
-    /* ОПТИМИЗИРОВАННЫЕ АНИМАЦИИ ДЛЯ ПЛАНШЕТОВ */
+    /* ОПТИМИЗИРОВАННЫЕ АНИМАЦИИ */
     @keyframes heartFall {
         0% { transform: translateY(0) translateX(0) rotate(45deg); opacity: 0; }
         15% { opacity: 0.9; }
@@ -2924,19 +2921,19 @@
         100% { transform: translateY(100vh) translateX(30px) rotate(45deg); opacity: 0; }
     }
     
-    /* Разнообразные цвета для планшетов */
+    /* Разнообразные цвета */
     .heart.h1, .heart.h11, .heart.h21, .heart.h31, .heart.h36 { background: #FF4081; }
     .heart.h2, .heart.h12, .heart.h22, .heart.h32, .heart.h37 { background: #E91E63; }
     .heart.h3, .heart.h13, .heart.h23, .heart.h33, .heart.h38 { background: #FF1744; }
     .heart.h4, .heart.h14, .heart.h24, .heart.h34, .heart.h39 { background: #F48FB1; }
     .heart.h5, .heart.h15, .heart.h25, .heart.h35, .heart.h40 { background: #EC407A; }
     
-    /* Улучшенные тени для планшетов */
+    /* Улучшенные тени */
     .heart {
         filter: drop-shadow(0 2px 4px rgba(255, 64, 129, 0.7));
     }
     
-    /* Оптимизированные звездочки для планшетов */
+    /* Оптимизированные звездочки */
     .sparkle {
         width: 6px !important;
         height: 6px !important;
@@ -2964,7 +2961,7 @@
         }
     }
     
-    /* Улучшенный градиентный фон для планшетов */
+    /* Улучшенный градиентный фон */
     .valentine-container::before {
         background: linear-gradient(135deg, 
             rgba(255, 182, 193, 0.1) 0%, 
@@ -2980,7 +2977,7 @@
         transition: all 0.3s ease;
     }
     
-    /* Плавное появление сердечек на планшетах */
+    /* Плавное появление сердечек */
     .valentine-checkbox:checked ~ .valentine-container .heart {
         opacity: 0.85;
         transition: opacity 0.5s ease;
@@ -4065,7 +4062,7 @@
         height: 30px;
     }
     
-    /* Уменьшено количество сердечек на планшетах */
+    /* Уменьшено количество сердечек */
     .heart.h11, .heart.h12, .heart.h13, .heart.h14, .heart.h15,
     .heart.h16, .heart.h17, .heart.h18, .heart.h19, .heart.h20,
     .heart.h31, .heart.h32, .heart.h33, .heart.h34, .heart.h35 {
